@@ -1,0 +1,66 @@
+/* this is the css sheet for index.html. */
+.navbar{
+  position: sticky;
+}
+.myimg{
+    width: 50%;
+    height: 510px;
+}
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+ 
+  .left {
+    left: 0;
+    background-image: url('myimg.jfif');
+    position: absolute;
+    top:56px;
+    background-repeat: no-repeat;
+    height: 609px;
+  }
+  
+ 
+  .right {
+    right: 0;
+    background-color: rgb(221, 128, 128);
+    position: absolute;
+    top:56px;
+    background-repeat: no-repeat;
+    height: 609px;
+    width: 900px;
+  }
+  
+  .introtext{
+      text-align: center;
+      font-size: 100px;
+  }
+  .expand{
+    text-align: center;
+    font-size: 35px;
+  }
+ 
+  
+  .description{
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    top:256px;
+  }
+  
+#b1{
+    position: absolute;
+    top:400px;
+    right: 140px;
+}
+#b2{
+    position: absolute;
+    top:400px;
+    left: 140px;
+}
